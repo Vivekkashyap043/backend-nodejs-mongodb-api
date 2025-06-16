@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timestamp Microservice</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f5f7fa;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        color: #2c3e50;
+      }
+
+      .container {
+        background: #ffffff;
+        padding: 2rem;
+        margin: 2rem auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 700px;
+        text-align: left;
+      }
+
+      h2 {
+        color: #34495e;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+      }
+
+      ul li {
+        margin: 0.5rem 0;
+      }
+
+      a {
+        color: #2980b9;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      code {
+        display: inline-block;
+        background-color: #f0f0f0;
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-family: monospace;
+        color: #e74c3c;
+      }
+
+      .footer {
+        margin-top: auto;
+        padding: 1rem 0;
+        text-align: center;
+        font-size: 0.9rem;
+        background-color: #ecf0f1;
+        width: 100%;
+      }
+
+      .footer a {
+        color: #2c3e50;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <hr style="width: 50%; border: 1px solid #ccc;" />
+
+    <div class="container">
+      <h2>Example Usage:</h2>
+      <ul>
+        <li>
+          <a href="api/2025-06-16">[project url]/api/2025-06-16</a>
+        </li>
+        <li>
+          <a href="api/1750032000000">[project url]/api/1750032000000</a>
+        </li>
+      </ul>
+
+      <h2>Example Output:</h2>
+      <p>
+        <code>{"unix": 1451001600000, "utc": "Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>
+        By <a href="https://vivekkashyap043.github.io/portfolio">vivek kashyap</a>
+      </p>
+    </div>
+  </body>
+</html>

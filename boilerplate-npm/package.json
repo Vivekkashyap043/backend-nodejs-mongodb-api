@@ -1,0 +1,19 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	},
+	"author": "Vivek Kashyap",
+	"description": "This is a boilerplate to help you get started with npm package.json files.",
+	"keywords": ["npm", "package.json", "boilerplate", "freecodecamp"],
+	"license": "MIT",
+	"version": "1.0.0"
+}
